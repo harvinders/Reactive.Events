@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\harvinders\\source\\repos\\Reactive.Events\\Reactive.Events.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\harvinders\\source\\repos\\Reactive.Events\\Reactive.Events.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\harvinders\\source\\repos\\Reactive.Events\\Reactive.Events.csproj",
+        "projectName": "Reactive.Events",
+        "projectPath": "C:\\Users\\harvinders\\source\\repos\\Reactive.Events\\Reactive.Events.csproj",
+        "packagesPath": "C:\\Users\\harvinders\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\harvinders\\source\\repos\\Reactive.Events\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\harvinders\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17134"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17134": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17134": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.9, )"
+            },
+            "Microsoft.WinUI": {
+              "target": "Package",
+              "version": "[3.0.0-alpha.191101.0, )"
+            },
+            "Pharmacist.Common": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Pharmacist.MsBuild": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
